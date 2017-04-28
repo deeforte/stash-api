@@ -1,8 +1,15 @@
 Started GET "/" for 127.0.0.1 at 2017-04-26 17:25:23 -0400
+<<<<<<< HEAD
 
 ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
 ):
 
+=======
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
+):
+  
+>>>>>>> apiconnect
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
@@ -48,10 +55,17 @@ puma (3.7.0) lib/puma/server.rb:415:in `process_client'
 puma (3.7.0) lib/puma/server.rb:275:in `block in run'
 puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/" for 127.0.0.1 at 2017-04-26 17:28:46 -0400
+<<<<<<< HEAD
 
 ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
 ):
 
+=======
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
+):
+  
+>>>>>>> apiconnect
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
@@ -97,10 +111,17 @@ puma (3.7.0) lib/puma/server.rb:415:in `process_client'
 puma (3.7.0) lib/puma/server.rb:275:in `block in run'
 puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/" for 127.0.0.1 at 2017-04-26 17:29:41 -0400
+<<<<<<< HEAD
 
 ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
 ):
 
+=======
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
+):
+  
+>>>>>>> apiconnect
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
@@ -146,10 +167,17 @@ puma (3.7.0) lib/puma/server.rb:415:in `process_client'
 puma (3.7.0) lib/puma/server.rb:275:in `block in run'
 puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/example" for 127.0.0.1 at 2017-04-26 17:30:34 -0400
+<<<<<<< HEAD
 
 ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
 ):
 
+=======
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
+):
+  
+>>>>>>> apiconnect
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
@@ -195,10 +223,17 @@ puma (3.7.0) lib/puma/server.rb:415:in `process_client'
 puma (3.7.0) lib/puma/server.rb:275:in `block in run'
 puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started GET "/" for 127.0.0.1 at 2017-04-26 17:30:45 -0400
+<<<<<<< HEAD
 
 ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
 ):
 
+=======
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "stash-api-template_development" does not exist
+):
+  
+>>>>>>> apiconnect
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:675:in `rescue in connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:671:in `connect'
 activerecord (5.0.1) lib/active_record/connection_adapters/postgresql_adapter.rb:217:in `initialize'
@@ -303,9 +338,15 @@ Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/user" for 127.0.0.1 at 2017-04-26 17:32:58 -0400
+<<<<<<< HEAD
 
 ActionController::RoutingError (No route matches [GET] "/user"):
 
+=======
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
 railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
@@ -337,9 +378,15 @@ Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.0ms)
 
 
 Started POST "/" for 127.0.0.1 at 2017-04-27 10:42:41 -0400
+<<<<<<< HEAD
 
 ActionController::RoutingError (No route matches [POST] "/"):
 
+=======
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
 railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
@@ -362,9 +409,15 @@ puma (3.7.0) lib/puma/server.rb:415:in `process_client'
 puma (3.7.0) lib/puma/server.rb:275:in `block in run'
 puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started POST "/" for 127.0.0.1 at 2017-04-27 10:44:31 -0400
+<<<<<<< HEAD
 
 ActionController::RoutingError (No route matches [POST] "/"):
 
+=======
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
 railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
@@ -387,9 +440,15 @@ puma (3.7.0) lib/puma/server.rb:415:in `process_client'
 puma (3.7.0) lib/puma/server.rb:275:in `block in run'
 puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started POST "/" for 127.0.0.1 at 2017-04-27 10:45:24 -0400
+<<<<<<< HEAD
 
 ActionController::RoutingError (No route matches [POST] "/"):
 
+=======
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
 railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
@@ -436,9 +495,15 @@ Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms)
 
 
 Started POST "/" for 127.0.0.1 at 2017-04-27 10:48:35 -0400
+<<<<<<< HEAD
 
 ActionController::RoutingError (No route matches [POST] "/"):
 
+=======
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
 railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
@@ -647,7 +712,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarns": {
       "user_id": "1",
@@ -658,7 +727,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -738,7 +811,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarns": {
       "user_id": "1",
@@ -749,7 +826,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -816,7 +897,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarns": {
       "user_id": "1",
@@ -827,7 +912,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -894,7 +983,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -905,7 +998,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -959,9 +1056,15 @@ puma (3.7.0) lib/puma/server.rb:415:in `process_client'
 puma (3.7.0) lib/puma/server.rb:275:in `block in run'
 puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
 Started POST "/yarns" for 127.0.0.1 at 2017-04-27 17:04:56 -0400
+<<<<<<< HEAD
 
 AbstractController::ActionNotFound (The action 'create' could not be found for YarnsController):
 
+=======
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for YarnsController):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
 actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
@@ -1017,9 +1120,15 @@ Contents:
     }
   }
 Started POST "/yarns" for 127.0.0.1 at 2017-04-27 17:05:49 -0400
+<<<<<<< HEAD
 
 AbstractController::ActionNotFound (The action 'create' could not be found for YarnsController):
 
+=======
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for YarnsController):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
 actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
@@ -1076,9 +1185,15 @@ Contents:
   }
 Started POST "/yarns" for 127.0.0.1 at 2017-04-27 17:06:14 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+<<<<<<< HEAD
 
 AbstractController::ActionNotFound (The action 'create' could not be found for YarnsController):
 
+=======
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for YarnsController):
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/abstract_controller/base.rb:121:in `process'
 actionpack (5.0.1) lib/action_controller/metal.rb:190:in `dispatch'
 actionpack (5.0.1) lib/action_controller/metal.rb:262:in `dispatch'
@@ -1147,7 +1262,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1158,7 +1277,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1225,7 +1348,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1236,7 +1363,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1318,7 +1449,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1329,7 +1464,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1396,7 +1535,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1407,7 +1550,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1474,7 +1621,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1485,7 +1636,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1559,7 +1714,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1570,7 +1729,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1637,7 +1800,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1648,7 +1815,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1715,7 +1886,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1726,7 +1901,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1800,7 +1979,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -1811,7 +1994,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1878,7 +2065,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": 1,
@@ -1889,7 +2080,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -1948,9 +2143,15 @@ Processing by UsersController#signin as */*
 Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:18:in `signin'
@@ -1960,9 +2161,15 @@ Processing by UsersController#signin as */*
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:18:in `signin'
@@ -1973,9 +2180,15 @@ Processing by UsersController#signin as */*
 Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:18:in `signin'
@@ -1985,9 +2198,15 @@ Processing by UsersController#signup as */*
 Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:7:in `signup'
@@ -1997,9 +2216,15 @@ Processing by UsersController#signup as */*
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:7:in `signup'
@@ -2009,9 +2234,15 @@ Processing by UsersController#signin as */*
 Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:18:in `signin'
@@ -2028,9 +2259,15 @@ Processing by UsersController#signin as */*
 Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:18:in `signin'
@@ -2040,9 +2277,15 @@ Processing by UsersController#signin as */*
 Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `arity' for :yarns:Symbol):
 
+=======
+  
+NoMethodError (undefined method `arity' for :yarns:Symbol):
+  
+>>>>>>> apiconnect
 app/models/user.rb:4:in `<class:User>'
 app/models/user.rb:2:in `<top (required)>'
 app/controllers/users_controller.rb:18:in `signin'
@@ -2069,7 +2312,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -2080,7 +2327,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -2147,7 +2398,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": 1,
@@ -2158,7 +2413,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -2225,7 +2484,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "user_id": "1",
@@ -2236,7 +2499,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -2302,7 +2569,11 @@ Contents:
       "project": "sweater"
     }
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
     "yarn": {
       "name": "mountain mohair",
@@ -2312,7 +2583,11 @@ ActionDispatch::ParamsParser::ParseError (822: unexpected token at '{
       "project": "sweater"
     }
   }'):
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> apiconnect
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:78:in `rescue in parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/parameters.rb:72:in `parse_formatted_parameters'
 actionpack (5.0.1) lib/action_dispatch/http/request.rb:354:in `block in POST'
@@ -2371,9 +2646,15 @@ Processing by YarnsController#create as */*
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `yarns' for nil:NilClass):
 
+=======
+  
+NoMethodError (undefined method `yarns' for nil:NilClass):
+  
+>>>>>>> apiconnect
 app/controllers/yarns_controller.rb:19:in `create'
 Started POST "/yarns" for 127.0.0.1 at 2017-04-27 18:55:48 -0400
 Processing by YarnsController#create as */*
@@ -2381,9 +2662,15 @@ Processing by YarnsController#create as */*
 Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `yarns' for nil:NilClass):
 
+=======
+  
+NoMethodError (undefined method `yarns' for nil:NilClass):
+  
+>>>>>>> apiconnect
 app/controllers/yarns_controller.rb:19:in `create'
 Started POST "/yarns" for 127.0.0.1 at 2017-04-27 19:00:00 -0400
 Processing by YarnsController#create as */*
@@ -2391,9 +2678,15 @@ Processing by YarnsController#create as */*
 Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
 
 NoMethodError (undefined method `yarns' for nil:NilClass):
 
+=======
+  
+NoMethodError (undefined method `yarns' for nil:NilClass):
+  
+>>>>>>> apiconnect
 app/controllers/yarns_controller.rb:19:in `create'
 Started POST "/yarns" for 127.0.0.1 at 2017-04-27 19:01:49 -0400
 Processing by YarnsController#create as */*
@@ -2674,3 +2967,8 @@ Processing by YarnsController#index as HTML
 [active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
 [active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (5.52ms)
 Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> apiconnect
