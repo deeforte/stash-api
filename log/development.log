@@ -2469,3 +2469,210 @@ Processing by YarnsController#index as */*
 Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.6ms)
 
 
+Started POST "/sign-in" for 127.0.0.1 at 2017-04-27 19:27:11 -0400
+Processing by UsersController#signin as */*
+  Parameters: {"credentials"=>{"email"=>"deeforte@email.com", "password"=>"[FILTERED]"}, "submit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "deeforte@email.com"], ["LIMIT", 1]]
+  [1m[35mSQL (6.3ms)[0m  [1m[33mUPDATE "users" SET "token" = '8d231269e1b649ba603c8b4a5fdce132', "updated_at" = '2017-04-27 23:27:11.330935' WHERE "users"."id" = $1[0m  [["id", 2]]
+[active_model_serializers] Rendered UserLoginSerializer with ActiveModelSerializers::Adapter::Json (0.26ms)
+Completed 200 OK in 77ms (Views: 0.6ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-27 22:14:10 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.2ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (4.59ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:15:20 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"mountain mohair", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:15:24 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"mountain mohair", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:15:27 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"mountain mohair", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:15:30 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"mountain mohair", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:15:33 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"mountain mohair", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-27 22:15:55 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.3ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (4.41ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-27 22:15:58 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.2ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (4.93ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-27 22:16:00 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.2ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (17.69ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:17:59 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"shetland", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-27 22:20:12 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.2ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (3.08ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-27 22:20:14 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.3ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (4.05ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:21:01 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"shetland", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sign-in" for 127.0.0.1 at 2017-04-27 22:22:27 -0400
+Processing by UsersController#signin as */*
+  Parameters: {"credentials"=>{"email"=>"deeforte@email.com", "password"=>"[FILTERED]"}, "submit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "deeforte@email.com"], ["LIMIT", 1]]
+  [1m[35mSQL (6.6ms)[0m  [1m[33mUPDATE "users" SET "token" = '40a82ef281cdf2f0ff3cf378a68069b4', "updated_at" = '2017-04-28 02:22:27.849031' WHERE "users"."id" = $1[0m  [["id", 2]]
+[active_model_serializers] Rendered UserLoginSerializer with ActiveModelSerializers::Adapter::Json (0.18ms)
+Completed 200 OK in 76ms (Views: 0.6ms | ActiveRecord: 6.9ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:22:51 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"shetland", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "e08acb43358f29854bcb84f86f5ba279"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:27:58 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"shetlan", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"sweater"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "f"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sign-in" for 127.0.0.1 at 2017-04-27 22:28:27 -0400
+Processing by UsersController#signin as */*
+  Parameters: {"credentials"=>{"email"=>"deeforte@email.com", "password"=>"[FILTERED]"}, "submit"=>"Sign in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "deeforte@email.com"], ["LIMIT", 1]]
+  [1m[35mSQL (6.1ms)[0m  [1m[33mUPDATE "users" SET "token" = '197def9cfb7cefc498370ecc619582a2', "updated_at" = '2017-04-28 02:28:27.275903' WHERE "users"."id" = $1[0m  [["id", 2]]
+[active_model_serializers] Rendered UserLoginSerializer with ActiveModelSerializers::Adapter::Json (0.2ms)
+Completed 200 OK in 80ms (Views: 0.6ms | ActiveRecord: 6.5ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:30:10 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"shetlan", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"shawl"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "40a82ef281cdf2f0ff3cf378a68069b4"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:32:42 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"shetlan", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"shawl"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "40a82ef281cdf2f0ff3cf378a68069b4"], ["LIMIT", 1]]
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/yarns" for 127.0.0.1 at 2017-04-27 22:35:25 -0400
+Processing by YarnsController#create as */*
+  Parameters: {"yarn"=>{"user_id"=>2, "name"=>"shetlan", "quantity"=>3, "yards"=>250, "color"=>"gray", "project"=>"shawl"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."token" = $1 LIMIT $2[0m  [["token", "197def9cfb7cefc498370ecc619582a2"], ["LIMIT", 1]]
+Unpermitted parameter: user_id
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "yarns" ("user_id", "name", "quantity", "yards", "color", "project", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["user_id", 2], ["name", "shetlan"], ["quantity", 3], ["yards", 250], ["color", "gray"], ["project", "shawl"], ["created_at", 2017-04-28 02:35:25 UTC], ["updated_at", 2017-04-28 02:35:25 UTC]]
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered YarnSerializer with ActiveModelSerializers::Adapter::Json (0.52ms)
+Completed 201 Created in 12ms (Views: 1.4ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-27 22:35:48 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.3ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (4.09ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-04-28 09:06:37 -0400
+Processing by UsersController#index as HTML
+Filter chain halted as :authenticate rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/yarns" for 127.0.0.1 at 2017-04-28 09:06:44 -0400
+Processing by YarnsController#index as HTML
+  [1m[36mYarn Load (0.2ms)[0m  [1m[34mSELECT "yarns".* FROM "yarns"[0m
+[active_model_serializers]   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers]   [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Json (5.52ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
