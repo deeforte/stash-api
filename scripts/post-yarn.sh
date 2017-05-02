@@ -3,12 +3,11 @@
 API="${API_ORIGIN:-http://localhost:4741}"
 URL_PATH="/sign-up"
 TOKEN="BAhJIiVlMDhhY2I0MzM1OGYyOTg1NGJjYjg0Zjg2ZjViYTI3OQY6BkVG--b685b613fc2cd064231ea1a080eff1f6f105cf41"
-curl --include --request POST http://localhost:4741/yarns \
+curl --include --request POST https://stash-api-heroku.herokuapp.com/yarns \
   --header "Content-Type: application/json" \
-  --header "Authorization: Token token=BAhJIiUxOTdkZWY5Y2ZiN2NlZmM0OTgzNzBlY2M2MTk1ODJhMgY6BkVG--4c9365cfa4fbc086c4f639ba1c6fe17bbeb4a696" \
+  --header "Authorization: Token token=BAhJIiU0MTRiOTllMjcwOTM2MjkyODlkMDc5NGU5MjBjNDRmZgY6BkVG--88baf34bc3744577447f3e83de39f1e7ae839ab7" \
   --data '{
     "yarn": {
-      "user_id": 2,
       "name": "shetlan",
       "quantity":3,
       "yards":250,
@@ -20,9 +19,9 @@ curl --include --request POST http://localhost:4741/yarns \
 ## post doctors
 curl --include --request POST http://localhost:4741/yarns \
   --header "Content-Type: application/json" \
+  --header "Authorization: Token token=BAhJIiU0MTRiOTllMjcwOTM2MjkyODlkMDc5NGU5MjBjNDRmZgY6BkVG--88baf34bc3744577447f3e83de39f1e7ae839ab7" \
   --data '{
     "yarn": {
-      "user_id": 1,
       "name": "mountain mohair",
       "quantity": 3,
       "yards: 250,

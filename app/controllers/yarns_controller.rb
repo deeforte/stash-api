@@ -1,9 +1,11 @@
 class YarnsController < OpenReadController
-  before_action :set_yarn, only: [:show, :update, :destroy]
+  before_action :set_yarn, only: [:update, :destroy]
 
   # GET /yarns
   def index
-    @yarns = Yarn.all
+#  @yarns = current_user.yarns.find(params[:id])
+#  @yarns = Yarn.all
+  @yarns = current_user.yarns
 
     render json: @yarns
   end
@@ -15,7 +17,7 @@ class YarnsController < OpenReadController
 
   # POST /yarns
   def create
-  #   @yarn = Yarn.new(yarn_params)
+  # @yarn = Yarn.new(yarn_params)
     @yarn = current_user.yarns.build(yarn_params)
 
     if @yarn.save
@@ -28,7 +30,7 @@ class YarnsController < OpenReadController
   # PATCH/PUT /yarns/1
   def update
     if @yarn.update(yarn_params)
-      render json: @yarn
+      head :no_content
     else
       render json: @yarn.errors, status: :unprocessable_entity
     end
@@ -42,7 +44,8 @@ class YarnsController < OpenReadController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_yarn
-      @yarn = Yarn.find(params[:id])
+#      @yarn = Yarn.find(params[:id])
+      @yarn = current_user.yarns.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
