@@ -19,3 +19,11 @@ Stash API heroku <https://stash-api-heroku.herokuapp.com/>
 ## technologies used for API
 
 Ruby on Rails
+
+## approach
+
+First tested the signup & signin functionality.  Then ran a scaffold command to create the yarn database with a reference to the user database. Created curl scripts to test all required routes to yarn database before building interface in client app.
+
+## ERD
+
+Link to ERD image http://i.imgur.com/q7wDDrF.jpg
